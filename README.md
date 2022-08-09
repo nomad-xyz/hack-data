@@ -2,7 +2,7 @@
 
 ## About
 
-This repo contains data pertaining to the Nomad Bridge Hack on August 1, 2022. Community members interested in performing their own data analysis can leverage this repo to do so.
+This repo contains data pertaining to the Nomad Bridge Hack on August 1, 2022. Nomad and community members alike can leverage this repo to perform data analysis.
 
 ## Returning Funds
 
