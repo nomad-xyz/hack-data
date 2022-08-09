@@ -1,0 +1,91 @@
+{
+  "WETH": {
+    "balance": "22876.823832591440628473",
+    "recovered": "1410.90707016077839",
+    "percentRecovered": 6
+  },
+  "WBTC": {
+    "balance": "1028.25072399",
+    "recovered": "196.99072399",
+    "percentRecovered": 19
+  },
+  "USDC": {
+    "balance": "87459362.891749",
+    "recovered": "9758181.083409",
+    "percentRecovered": 11
+  },
+  "USDT": {
+    "balance": "8625217.954867",
+    "recovered": "5014389.334652",
+    "percentRecovered": 58
+  },
+  "DAI": {
+    "balance": "4533633.070213997592670853",
+    "recovered": "3692703.257793648638550616",
+    "percentRecovered": 81
+  },
+  "FRAX": {
+    "balance": "7284868.263629365174269341",
+    "recovered": "1749399.997288",
+    "percentRecovered": 24
+  },
+  "FXS": {
+    "balance": "119088.08227978795",
+    "recovered": "12502.960025",
+    "percentRecovered": 10
+  },
+  "WSTR": {
+    "balance": "0.09549",
+    "recovered": "0.0",
+    "percentRecovered": 0
+  },
+  "CQT": {
+    "balance": "113403733.6486968726",
+    "recovered": "35806991.926689091160796802",
+    "percentRecovered": 31
+  },
+  "renBTC": {
+    "balance": "0.00125277",
+    "recovered": "0.0",
+    "percentRecovered": 0
+  },
+  "sBTC": {
+    "balance": "0.000500225577496674",
+    "recovered": "0.0",
+    "percentRecovered": 0
+  },
+  "tBTC": {
+    "balance": "0.001308033481214994",
+    "recovered": "0.0",
+    "percentRecovered": 0
+  },
+  "hBTC": {
+    "balance": "0.0003",
+    "recovered": "0.0",
+    "percentRecovered": 0
+  },
+  "HBOT": {
+    "balance": "11305579.726619",
+    "recovered": "1200319.997288",
+    "percentRecovered": 10
+  },
+  "PBX": {
+    "balance": "0.0",
+    "recovered": "0.0"
+  },
+  "C3": {
+    "balance": "7111953.7928822222789",
+    "recovered": "1649119.949747726390466344",
+    "percentRecovered": 23
+  },
+  "CARDS": {
+    "balance": "693615.06523575301995",
+    "recovered": "159368.122808583032431618",
+    "percentRecovered": 22
+  },
+  "GERO": {
+    "balance": "58615812.2203561471294",
+    "recovered": "25801885.522655066795298816",
+    "percentRecovered": 44
+  }
+}
