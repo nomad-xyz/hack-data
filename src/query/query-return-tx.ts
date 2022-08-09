@@ -13,7 +13,7 @@ async function getData() {
   if (!ETHERSCAN_API_KEY) {
     throw new Error('Missing ETHERSCAN_API_KEY in .env');
   }
-  console.log('querying...');
+  console.log('begin query');
   // query endpoint
   const res = await axios.get(endpoint);
   console.log(res.data.result[0]);
@@ -21,7 +21,7 @@ async function getData() {
   const data = res.data.result;
   write(data, WRITE_PATH);
   // done
-  console.log('done');
+  console.log('complete\n');
   process.exit();
 }
 

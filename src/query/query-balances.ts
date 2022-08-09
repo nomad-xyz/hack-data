@@ -12,7 +12,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const { ETHEREUM_RPC } = process.env;
 
-const WRITE_PATH = './data/balance_by_token.json';
+const WRITE_PATH = './data/recovery/tokens.json';
 
 type TokenBalances = { [key: string]: { balance: string } };
 type Recovered = {
@@ -109,7 +109,7 @@ const getReturnedTokenBalances = async (
   return results;
 };
 
-async function start() {
+async function run() {
   console.log('begin query');
   const balances = await getAllTokenBalances(
     BRIDGE_ROUTER_ADDR,
@@ -118,6 +118,7 @@ async function start() {
   );
   await getReturnedTokenBalances(RECOVERY_ADDR, TOKENS, balances);
   console.log('complete\n');
-  return 0;
+  process.exit();
 }
-start();
+
+run();

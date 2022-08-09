@@ -10,17 +10,17 @@ White hat hackers can [return funds](https://twitter.com/nomadxyz_/status/155529
 
 ## Repo Layout
 
-### Data 
-- `data`: raw data which can be analyzed to produce insights on the Nomad hack.
+### Data
+- `data`: raw data which can be analyzed to produce insights on the Nomad hack
   - `data/hack/`: transactions from the hack & events emitted within them
-  - `data/nomad/`: lifecycle events of Nomad messages, used to identify transactions from the hack 
-  - `data/recovery/`: ERC20 transfer events sent into the Official Nomad Recovery Address
+  - `data/nomad/`: lifecycle events of Nomad messages, used to identify transactions from the hack
+  - `data/recovery/`: ERC20 transfer events and token amounts sent into the Official Nomad Recovery Address
 
-### Analysis 
+### Analysis
 - `analysis`: aggregate data compiled by analyzing raw `data` to gain insights to the hack
   - `analysis/hack/`: aggregate data about transactions, tokens, and token recipients involved in the hack
 
 ### Source Code
 - `src`: scripts & code used to query data and perform analysis
-  - `src/analyze/`:  scripts to aggregate insights from raw data 
+  - `src/analyze/`:  scripts to aggregate insights from raw data
   - `src/query/`: scripts to query external services to compile raw data

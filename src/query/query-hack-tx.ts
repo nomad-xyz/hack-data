@@ -72,11 +72,11 @@ async function getData() {
   return;
 }
 
-async function start() {
+async function run() {
   context = await init();
   console.log('begin query');
   await getData();
   console.log('complete\n');
-  return 0;
+  process.exit();
 }
-start();
+run();
