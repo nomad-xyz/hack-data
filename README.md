@@ -15,7 +15,8 @@ White hat hackers can [return funds](https://twitter.com/nomadxyz_/status/155529
   - `data/hack/`: transactions from the hack & events emitted within them
   - `data/nomad/`: lifecycle events of Nomad messages, used to identify transactions from the hack
   - `data/recovery/`: ERC20 transfer events and token amounts sent into the Official Nomad Recovery Address
-  - `data/white_hats_as_of_<date>.json`: all white hat addresses as identified by TRM Labs
+  - `data/white_hats_as_of_<date>.json`: all white hat addresses as identified by TRM
+  - `data/bad_actors-amt_by_addr_token-as_of_<date>.json`: all addresses that are still considered bad actors
 
 ### Analysis
 - `analysis`: aggregate data compiled by analyzing raw `data` to gain insights to the hack
