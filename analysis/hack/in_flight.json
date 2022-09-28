@@ -1,0 +1,116 @@
+{
+  "0xae83571000af4499798d1e3b0fa0070eb3a3e3f9": {
+    "numTxs": 1,
+    "total": "2328306436"
+  },
+  "0x3431f91b3a388115f00c5ba9fdb899851d005fb5": {
+    "numTxs": 1,
+    "total": "0.000000000683646351",
+    "tokenData": {
+      "address": "0x3431f91b3a388115f00c5ba9fdb899851d005fb5",
+      "symbol": "GERO",
+      "decimals": 18
+    }
+  },
+  "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0": {
+    "numTxs": 1,
+    "total": "2328306436"
+  },
+  "0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9": {
+    "numTxs": 1,
+    "total": "0.000000002593196768",
+    "tokenData": {
+      "address": "0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9",
+      "symbol": "CARDS",
+      "decimals": 18
+    }
+  },
+  "0x40eb746dee876ac1e78697b7ca85142d178a1fc8": {
+    "numTxs": 2,
+    "total": "1287291614"
+  },
+  "0x6b175474e89094c44da98b954eedeac495271d0f": {
+    "numTxs": 4,
+    "total": "0.000000008837159022",
+    "tokenData": {
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "symbol": "DAI",
+      "decimals": 18
+    }
+  },
+  "0x853d955acef822db058eb8505911ed77f175b99e": {
+    "numTxs": 1,
+    "total": "465661287"
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+    "numTxs": 19,
+    "total": "29199.8409",
+    "tokenData": {
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "symbol": "USDC",
+      "decimals": 6
+    }
+  },
+  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "numTxs": 71,
+    "total": "0.000000086563184826",
+    "tokenData": {
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "symbol": "WETH",
+      "decimals": 18
+    }
+  },
+  "0xd417144312dbf50465b1c641d016962017ef6240": {
+    "numTxs": 1,
+    "total": "2296852864"
+  },
+  "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+    "numTxs": 2,
+    "total": "3841.12",
+    "tokenData": {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "symbol": "USDT",
+      "decimals": 6
+    }
+  },
+  "0xe5097d9baeafb89f9bcb78c9290d545db5f9e9cb": {
+    "numTxs": 2,
+    "total": "1763932989"
+  },
+  "0xf1a91c7d44768070f711c68f33a7ca25c8d30268": {
+    "numTxs": 4,
+    "total": "0.000000007104737278",
+    "tokenData": {
+      "address": "0xf1a91c7d44768070f711c68f33a7ca25c8d30268",
+      "symbol": "C3",
+      "decimals": 18
+    }
+  },
+  "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+    "numTxs": 1,
+    "total": "268.435456",
+    "tokenData": {
+      "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "symbol": "USDC",
+      "decimals": 6
+    }
+  },
+  "0xacc15dc74880c9944775448304b263d191c6077f": {
+    "numTxs": 65,
+    "total": "0.000000101440691358",
+    "tokenData": {
+      "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+      "symbol": "WGLMR",
+      "decimals": 18
+    }
+  },
+  "0xd4949664cd82660aae99bedc034a0dea8a0bd517": {
+    "numTxs": 340,
+    "total": "0.000000350793935485",
+    "tokenData": {
+      "address": "0xd4949664cd82660aae99bedc034a0dea8a0bd517",
+      "symbol": "WEVMOS",
+      "decimals": 18
+    }
+  }
+}

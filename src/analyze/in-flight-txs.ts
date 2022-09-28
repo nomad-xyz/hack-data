@@ -1,8 +1,9 @@
 import { BigNumber } from 'ethers';
 import { formatUnits } from 'ethers/lib/utils';
-import { read, fromBytes32, TOKENS } from '../utils';
+import { read, write, fromBytes32, TOKENS } from '../utils';
 
 const READ_PATH = './data/recovery/in_flight_recent.json';
+const WRITE_PATH = './analysis/hack/in_flight.json';
 
 type Tx = {
   token_body: string;
@@ -49,10 +50,11 @@ async function run() {
       tokenData[t].total = formatUnits(total, token.decimals);
       tokenData[t].tokenData = token;
     } else {
-      tokenData[t].total = total
+      tokenData[t].total = total.toString();
     }
   });
   console.log(tokenData);
+  write(tokenData, WRITE_PATH);
 
   console.log('complete\n');
   process.exit();
