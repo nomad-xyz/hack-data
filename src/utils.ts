@@ -26,6 +26,31 @@ export async function init(): Promise<NomadContext> {
   return context;
 }
 
+export function fromBytes32(addr: string): string {
+  if (addr.length === 42) return addr
+  if (addr.length === 40) return `0x${addr}`
+  if (addr.length === 64) {
+    // trim 12 bytes
+    const short = addr.slice(24)
+    return `0x${short}`
+  }
+  if (addr.length === 66) {
+    // trim 12 bytes
+    const short = addr.slice(26)
+    return `0x${short}`
+  }
+  throw new Error('invalid address length, cannot convert to 20 bytes')
+}
+
+export function idFromTokenBody(body: string): string {
+  if (body.length === 72) {
+    // trim 12 bytes + 4 bytes
+    const short = body.slice(32);
+    return `0x${short}`;
+  }
+  throw new Error('invalid address length, cannot convert to 20 bytes');
+}
+
 export type Token = {
   address: string;
   symbol: string;
@@ -123,6 +148,21 @@ export const TOKENS: Token[] = [
   {
     address: '0x3431f91b3a388115f00c5ba9fdb899851d005fb5',
     symbol: 'GERO',
+    decimals: 18,
+  },
+  {
+    address: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
+    symbol: 'USDC',
+    decimals: 6,
+  },
+  {
+    address: '0xacc15dc74880c9944775448304b263d191c6077f',
+    symbol: 'WGLMR',
+    decimals: 18,
+  },
+  {
+    address: '0xd4949664cd82660aae99bedc034a0dea8a0bd517',
+    symbol: 'WEVMOS',
     decimals: 18,
   },
 ];

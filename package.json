@@ -29,7 +29,8 @@
     "prettier": "prettier --write ./src",
     "analyze": "yarn analyze-tokens && yarn analyze-transactions",
     "analyze-tokens": "npx ts-node ./src/analyze/tokens.ts",
-    "analyze-transactions": "npx ts-node ./src/analyze/transaction-hashes.ts"
+    "analyze-transactions": "npx ts-node ./src/analyze/transaction-hashes.ts",
+    "analyze-unprocessed": "npx ts-node ./src/analyze/in-flight-txs.ts"
   },
   "dependencies": {
     "@nomad-xyz/contracts-bridge": "1.1.0",
