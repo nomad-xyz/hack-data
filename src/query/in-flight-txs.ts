@@ -10,8 +10,8 @@ async function fetchGraphQL(operationsDoc: string, operationName: string, variab
       body: JSON.stringify({
         query: operationsDoc,
         variables: variables,
-        operationName: operationName
-      })
+        operationName: operationName,
+      }),
     }
   );
 

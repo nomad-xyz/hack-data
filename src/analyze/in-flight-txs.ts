@@ -23,11 +23,11 @@ async function run() {
 
   console.log(inFlight.length, 'in flight transactions');
 
-  let txsByToken: any = {};
-  let tokenData: any = {};
+  const txsByToken: any = {};
+  const tokenData: any = {};
   inFlight.forEach(t => {
     // if the origin domain and the token domain match, it is an asset native to the origin chain and will mint on the destination
-    const mintNewAsset = t.origin_domain_id.toString() === t.token_domain
+    const mintNewAsset = t.origin_domain_id.toString() === t.token_domain;
     if (mintNewAsset) {
       const token_address = fromBytes32(t.token_id);
       if (!txsByToken[token_address]) {
@@ -35,13 +35,13 @@ async function run() {
       }
       txsByToken[token_address].push(t.action_amount);
     }
-  })
+  });
   console.log(Object.keys(txsByToken).length, 'different tokens');
 
   Object.keys(txsByToken).forEach(t => {
     const token = TOKENS.find(tkn => tkn.address === t);
     if (!tokenData[t]) {
-      tokenData[t] = {}
+      tokenData[t] = {};
     }
     tokenData[t].numTxs = txsByToken[t].length;
 

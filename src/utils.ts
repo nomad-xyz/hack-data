@@ -27,19 +27,19 @@ export async function init(): Promise<NomadContext> {
 }
 
 export function fromBytes32(addr: string): string {
-  if (addr.length === 42) return addr
-  if (addr.length === 40) return `0x${addr}`
+  if (addr.length === 42) return addr;
+  if (addr.length === 40) return `0x${addr}`;
   if (addr.length === 64) {
     // trim 12 bytes
-    const short = addr.slice(24)
-    return `0x${short}`
+    const short = addr.slice(24);
+    return `0x${short}`;
   }
   if (addr.length === 66) {
     // trim 12 bytes
-    const short = addr.slice(26)
-    return `0x${short}`
+    const short = addr.slice(26);
+    return `0x${short}`;
   }
-  throw new Error('invalid address length, cannot convert to 20 bytes')
+  throw new Error('invalid address length, cannot convert to 20 bytes');
 }
 
 export function idFromTokenBody(body: string): string {
