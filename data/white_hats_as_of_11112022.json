@@ -246,13 +246,6 @@
         ],
         "SUM of  Received Amt ": 150045.08
     },
-    "0x8dec128c0baa3405dd529d84a91874b641d299a3": {
-        "Recipient_Address": "0x8dec128c0baa3405dd529d84a91874b641d299a3",
-        "Recovery_Txns": [
-            "0xcbe99c098db0e0276145c791198cb5b23796b0f9777db9c27c1aa82cb424b0a6"
-        ],
-        "SUM of  Received Amt ": 150035.06
-    },
     "0x5a27a63832b9066be4aba5075a029d0e32001cc0": {
         "Recipient_Address": "0x5a27a63832b9066be4aba5075a029d0e32001cc0",
         "Recovery_Txns": [
@@ -432,6 +425,13 @@
         "Recipient_Address": "0x376accbd875b44385736168e545b0e866f9990a3",
         "Recovery_Txns": [
             "0x54bdcdfbde09ad0afd92b6c82bc25272487b904ac7b0e1c281866848de23cd9e 0xde2b779f5fece3a1175b1d38010b2c2744228fc4ffd1b0d11445722b987d41e3"
+        ],
+        "SUM of  Received Amt ": 18911.25
+    },
+    "0x198b57cd0ad98df89f01327dff26a97b7aa35221": {
+        "Recipient_Address": "0x198b57cd0ad98df89f01327dff26a97b7aa35221",
+        "Recovery_Txns": [
+            "0xbe42e8ee8e9436f78284e42cfc3867b070be2a1b4b45a69d66e0eb42b3f699900x3af27d3e304b4982dba6d1d3881a9227d2b66de85b9c1b92dd0b51767de7a6730x205ca85075144434ca1aa389d93615a755d5dcafc556ea634e9908487bd53463"
         ],
         "SUM of  Received Amt ": 18911.25
     },
@@ -781,6 +781,13 @@
         ],
         "SUM of  Received Amt ": 1166.52
     },
+    "0xc7b20dc1e847edfb5adfc46084f2b290351ec77c": {
+        "Recipient_Address": "0xc7b20dc1e847edfb5adfc46084f2b290351ec77c",
+        "Recovery_Txns": [
+            "0x8c677ed6cc17333b7810f891bba6eacc1efcf6fb0b9f8c58cd8dbc58c868c8fd"
+        ],
+        "SUM of  Received Amt ": 1166.52
+    },
     "0xa8cc612ecb2e853d3a882b0f9cf5357c2d892adb": {
         "Recipient_Address": "0xa8cc612ecb2e853d3a882b0f9cf5357c2d892adb",
         "Recovery_Txns": [
@@ -900,13 +907,6 @@
         ],
         "SUM of  Received Amt ": 571.96
     },
-    "0x19e9b6c9a7cc0340ab11138efbfe2d0f8039619f": {
-        "Recipient_Address": "0x19e9b6c9a7cc0340ab11138efbfe2d0f8039619f",
-        "Recovery_Txns": [
-            "0x8f95c9713f66bfd77eb200cc41de2ec80978993b2d8a8809aad0efef85ddf0b1"
-        ],
-        "SUM of  Received Amt ": 571.96
-    },
     "0x8748de69768b52ab5f6a9badbb910eee68264ad0": {
         "Recipient_Address": "0x8748de69768b52ab5f6a9badbb910eee68264ad0",
         "Recovery_Txns": [
@@ -948,6 +948,13 @@
             "0xcf6bd59f627425dfa0a03d54ec26bea609dd4382e1d9dde4c0f77f67a10341570x0a226675f2fa83c95228afbccfb86b77e67f7eaca1e0ec9c668f437924cf4ac6"
         ],
         "SUM of  Received Amt ": 192.87
+    },
+    "0xd57859ea9b4a546a4069104c00431f2199ec1ffd": {
+        "Recipient_Address": "0xd57859ea9b4a546a4069104c00431f2199ec1ffd",
+        "Recovery_Txns": [
+            "0x8135cd6df23f4b56c9d9bfab020d9b6ec7c280f365492657477b9e6a6affcb6a0x31190e3d1e949c46cc7379115efb8c1d011c9975436a1a96a597520a2f34f1940x09b14c2e70834028cf3ea9490f1c630dfad81680ca322f19fcfde0bc67678811"
+        ],
+        "SUM of  Received Amt ": 187.4
     },
     "0x70473400add568bb3362b84f1f44147194a0a679": {
         "Recipient_Address": "0x70473400add568bb3362b84f1f44147194a0a679",
@@ -1003,6 +1010,6 @@
         "Recovery_Txns": [
             ""
         ],
-        "SUM of  Received Amt ": 46640338.8
+        "SUM of  Received Amt ": 46509996.95
     }
 }
